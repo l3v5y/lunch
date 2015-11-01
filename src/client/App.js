@@ -1,4 +1,4 @@
-import 'bootstrap/scss/bootstrap-flex.scss';
+import 'bootstrap/scss/bootstrap.scss';
 import 'font-awesome/scss/font-awesome.scss';
 import './App.scss';
 import React, { Component } from 'react';
@@ -38,7 +38,7 @@ class App extends Component {
     }
 
     return (
-      <div>
+      <div className="App">
         <Provider store={store}>
           <ReduxRouter>{routes}</ReduxRouter>
         </Provider>
