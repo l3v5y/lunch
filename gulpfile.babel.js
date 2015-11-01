@@ -9,7 +9,7 @@ import sequence from 'gulp-sequence';
 import nodemon from 'gulp-nodemon';
 import webpack from 'webpack';
 import path from 'path';
-import babelConfig from './babelConfig.json';
+import babelConfig from './.babelrc';
 import webpackProdConfig from './webpack.config.prod';
 
 const sourceMapConfig = {

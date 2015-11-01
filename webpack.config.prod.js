@@ -1,6 +1,6 @@
 import path from 'path';
 import webpack, { optimize, DefinePlugin} from 'webpack';
-import babelConfig from './babelConfig.json';
+import babelConfig from './.babelrc';
 
 const config  = {
   devtool: 'source-map',

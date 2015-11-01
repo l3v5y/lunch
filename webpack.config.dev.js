@@ -1,6 +1,6 @@
 var path = require('path');
 var webpack = require('webpack');
-var babelConfig = require('./babelConfig.json');
+var babelConfig = require('./.babelrc');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
